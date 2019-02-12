@@ -12,14 +12,14 @@ The data was filtered with a band-pass Hamming linear phase FIR with size 256. A
 #### Raw files
 All filtered data is also saved in a .txt file with 9 collums and X rows where (X=t x 250) and t is the recording time. Each one of the first 8 collums is each of the 8 channels (electrodes) that are pinned to Ultracortex and the last collum is related to recording time (notice that it's created a time reference when the program is initialized). The files at raw_data/ follow this structure and each channel was recorded according to the following electrodes position (10-20 system):
 
-CH0 - FP2
-CH1 - FPz
-CH2 - F8
-CH3 - Cz
-CH4 - F4
-CH5 - P3
-CH6 - T6
-CH7 - T4
+- CH0 : FP2
+- CH1 : FPz
+- CH2 : F8
+- CH3 : Cz
+- CH4 : F4
+- CH5 : P3
+- CH6 : T6
+- CH7 : T4
 
 It's important to highlight that all EEG data was recorded with myself.
 
